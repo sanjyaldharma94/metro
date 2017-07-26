@@ -1,0 +1,263 @@
+/* universal slector*/
+*{
+font-family: 'Montserrat', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	background-color: 	rgb(153, 51, 51);
+	position: fixed;
+	height: 66px;
+	left: 0;
+    right:0;
+    top: 0;
+    z-index: 100;
+}
+nav > a{
+	color: white;
+	font-size:18px;
+	font-weight: 200px;
+	left: 35px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	top: 10px;
+}
+nav span{
+color: white;
+text-align: left;
+
+}
+nav .logo{
+	background-color:#ff3333;
+	margin: 0 10px;
+	padding: 0 10px 16px 10px;
+	top: 0;
+
+}
+nav ul{
+	position: absolute;
+	right: 25px;
+	top: 5px;
+}
+nav li{
+	display: inline-block;
+	padding: 0 15px;
+}
+nav li> a {
+	color:#fff;
+	text-decoration: none;
+}
+nav li > a:hover,
+nav li > a:focus {
+	text-decoration: underline;
+	color: blue;
+}
+header{
+	background-color:rgb(153, 51, 51);
+	height: 550px;
+	padding-top: 15%;
+	text-align: center;
+}
+header h1{
+	color: #aaa;
+	text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 55px;
+    font-weight:900;
+    letter-spacing:16px;
+    word-spacing: 2px;
+}
+button{
+	margin-top: 50px;
+	border: 1px solid black;
+	padding: 5px 15px;
+	background: transparent;
+}
+button a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 2px 
+}
+button a:hover,
+button a:focus{
+	color: green;
+}
+header > div > a > i{
+	color: cyan;
+	margin-top: 25px;
+	padding: 25px;
+}
+header > div > a > p{
+	color: black;
+	font-style: italic;
+	text-decoration: none;
+}
+ 
+.info{
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-style: italic;
+}
+h2{
+	line-height: 40px;
+	word-spacing: 8px;
+	font-size: 32px;
+}
+.info button{
+	border: none;
+	background-color: grey;
+}
+.projects{
+	background-color: #ff3333;
+	height:300px;
+	margin-top: 25px;
+
+}
+.projects .main-title{
+
+	float:left;
+	width: 50%;
+	margin-top: 75px;
+
+}
+.projects .main-title p{
+	width: 50%;
+	font-size: 12px;
+}
+.projects .left-title{
+	width: 50%;
+	float: right;
+	background-color: orangered;
+	text-align: center;
+}
+.projects .left-title p{
+	font-size: 12px;
+	width: 20%;
+	text-align: center;
+}
+.projects .left-title2{
+	background-color: cyan;
+	text-align: center;
+	width: 50%;
+	float: right;
+}
+.projects .left-title2 p{
+	font-size: 12px;
+	width: 20%;
+	text-align: center;
+}
+.bottom-title{
+	text-align: center;
+	background-color: #ff3333;
+}
+.bottom-title a{
+	color: black;
+	text-decoration: none;
+}
+.features div{
+	display: inline-block;
+	margin-left: 7%;
+	width: 35%;
+}
+.features div:first-child {
+	margin-left:10%;
+}
+
+.features h3 {
+	margin-left:0;
+}
+
+.features p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+}
+
+.features i {
+	color: #f63c3c;
+}
+.social{
+	background-color: cyan;
+	padding: 3% 0;
+
+}
+.social .icons{
+	margin: 0 auto;
+	width: 80%;
+}
+.social h2{
+	margin: 0 auto;
+	width: 80%;
+	font-weight:900;
+
+}
+.social p{
+	margin: 15px auto;
+	width: 80%;
+
+}
+.social .icons a{
+	background-color: #30282a;
+    color: #fff;
+    display: inline-block;
+    padding: 40px 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.social .icons a i{
+	font-size:26px;
+}
+.contact{
+	background-color: #e60000;
+	height: 400px;
+	font-size:20px;
+	color: black;
+}
+.contact address {
+	text-align: center;
+	position: relative;
+	font-size: 14px;
+	width: 50%;
+	margin-left: 300px;
+}
+.contact address i{
+	margin-top: 100px;
+}
+span a{
+	color: white;
+}
+footer div{
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px 65px;
+}
+
+footer div ul{
+	list-style: none;
+}
+h4{
+	text-align: center;
+}
+h4:hover{
+	font-weight: 800;
+	color: red;
+}
+.footer ul li{
+	display:inline-block;
+    padding:0 25px;
+
+}
+.footer ul{
+	float:right;
+}
+.footer ul li a{
+	color: black;
+}
+
+
+
+
